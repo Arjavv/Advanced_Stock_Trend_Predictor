@@ -2,6 +2,8 @@
 
 A Python-based command-line project that fetches live market data from Yahoo Finance, computes technical indicators, and predicts multi-horizon trend direction using a Random Forest model.
 
+LIVE: https://advancedstocktrendpredictor-vwuzsargxd4jvxfvvorjct.streamlit.app/
+
 ## What this project does
 
 - Pulls historical stock data from Yahoo Finance via `yfinance`
