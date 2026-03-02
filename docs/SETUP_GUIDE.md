@@ -2,7 +2,7 @@
 
 ## 1) Prerequisites
 
-- Python 3.11+ (project currently tested in a local virtual environment)
+- Python 3.12 recommended (especially for Streamlit)
 - Windows PowerShell (for the wrapper script)
 - Internet connection (Yahoo Finance API access through `yfinance`)
 

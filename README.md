@@ -16,10 +16,10 @@ A Python-based command-line project that fetches live market data from Yahoo Fin
 ## Project structure
 
 - `stock_trend_predictor.py` - main CLI application
+- `streamlit_app.py` - Streamlit web app
 - `run_stock_trend_predictor.ps1` - PowerShell wrapper script
 - `requirements.txt` - pinned dependencies
 - `debug_ta.py` - quick indicator/debug helper
-- `data/` - local dataset folder
 - `docs/` - setup, user, technology, and finance documentation
 
 ## Quick start (Windows / PowerShell)
@@ -36,6 +36,16 @@ Or use wrapper script:
 
 - `.\run_stock_trend_predictor.ps1 -Ticker SUZLON.NS`
 
+## Run with Streamlit (web UI)
+
+Use Python 3.12 (recommended for Streamlit compatibility).
+
+1. Install dependencies:
+   - `python -m pip install -r requirements.txt`
+2. Start Streamlit app:
+   - `streamlit run .\streamlit_app.py`
+3. Open browser URL shown in terminal (usually `http://localhost:8501`)
+
 ## Example tickers
 
 - India (NSE): `INFY.NS`, `RELIANCE.NS`, `SUZLON.NS`
@@ -48,6 +58,7 @@ Or use wrapper script:
 - User Guide: `docs/USER_GUIDE.md`
 - Technology Guide: `docs/TECHNOLOGY_GUIDE.md`
 - Finance Guide: `docs/FINANCE_GUIDE.md`
+- Streamlit Deploy Guide: `docs/STREAMLIT_DEPLOY_GUIDE.md`
 
 ## Important note
 
