@@ -23,7 +23,7 @@ def run_analysis(ticker: str) -> str:
 
 st.set_page_config(page_title="Stock Trend Predictor", layout="centered")
 
-st.title("📈 Stock Trend Predictor")
+st.title(" Stock Trend Predictor")
 st.write("Enter a ticker and run analysis.")
 
 st.caption("Examples: SUZLON.NS, INFY.NS, INFY.BO, AAPL, NVDA")
