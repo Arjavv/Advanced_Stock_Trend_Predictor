@@ -28,7 +28,7 @@ st.write("Enter a ticker and run analysis.")
 
 st.caption("Examples: SUZLON.NS, INFY.NS, INFY.BO, AAPL, NVDA")
 
-col1, col2 = st.columns([3, 1])
+col1, col2 = st.columns([3, 1], vertical_alignment="bottom")
 with col1:
     ticker = st.text_input("Ticker", value="SUZLON.NS").strip().upper()
 with col2:
