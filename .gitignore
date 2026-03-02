@@ -1,0 +1,28 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs and logs
+*.log
+err.txt
+error.txt
+output.log
+output_us.log
+trend_prediction.png
+
+# Local notebooks/checkpoints
+.ipynb_checkpoints/
