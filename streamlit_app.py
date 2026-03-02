@@ -21,7 +21,7 @@ def run_analysis(ticker: str) -> str:
     return buffer.getvalue()
 
 
-st.set_page_config(page_title="Stock Trend Predictor", page_icon="📈", layout="centered")
+st.set_page_config(page_title="Stock Trend Predictor", layout="centered")
 
 st.title("📈 Stock Trend Predictor")
 st.write("Enter a ticker and run analysis.")
